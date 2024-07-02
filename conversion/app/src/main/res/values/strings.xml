@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">conversion</string>
+    <string-array name="option">conversion
+        <item>decimal</item>
+        <item>octal</item>
+        <item>hexadecimal</item>
+        <item>binary</item>
+    </string-array>
+
+
+</resources>

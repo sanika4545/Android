@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042263792264",
+    "project_id": "mindfull-97931",
+    "storage_bucket": "mindfull-97931.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042263792264:android:55cf26e0138ab73fac9d3d",
+        "android_client_info": {
+          "package_name": "com.example.mindfull"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX8r3L6GzZpZzfk40QfrufZHjIHePkaz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

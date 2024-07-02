@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abuot"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+ >
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+       android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="-Namita"
+        android:textStyle="bold"
+        android:fontFamily="@font/deva"
+        android:textColor="@color/black"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="-Sanika"
+        android:textStyle="bold"
+        android:fontFamily="@font/deva"
+        android:textColor="@color/black"
+        android:layout_gravity="end"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="        Mindful Breaks is a revolutionary application designed to help individuals incorporate mindfulness into their daily routines. In today’s fast-paced world, it’s easy to get overwhelmed and stressed. Our app provides a simple and effective way to take short, meaningful breaks to refresh your mind, reduce stress, and enhance overall well-being.At Mindful Breaks, we are passionate about promoting mental health and well-being through the practice of mindfulness. Our mission is to provide accessible, easy-to-use tools that help people integrate mindfulness into their everyday lives, fostering a healthier and more balanced lifestyle.What We Offer:
+Expertly Designed Practices: Our content is crafted by experienced mindfulness practitioners and wellness experts to ensure it is both effective and easy to follow.
+User-Centric Approach: We prioritize the needs of our users, continuously updating and improving our app based on feedback and the latest research in mindfulness and mental health.
+Community Support: Join a community of like-minded individuals on a journey towards better mental health. Share experiences, tips, and support each other in the practice of mindfulness.
+Commitment to Quality:
+At Mindful Breaks, we are dedicated to providing high-quality, reliable, and scientifically-backed mindfulness resources. Our app is designed with the user in mind, ensuring a seamless and enriching experience.
+
+Join us on the path to a more mindful and balanced life. Together, we can make mindfulness a habit and transform the way we approach our daily challenges. Thank you for choosing Mindful Breaks."
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="italic"
+                        tools:layout_editor_absoluteX="44dp"
+                        tools:layout_editor_absoluteY="109dp" />
+
+                </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>
+</LinearLayout>

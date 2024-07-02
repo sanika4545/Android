@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/grey"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/ic_popup_reminder"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/deva"
+            android:text="Mindful Breaks"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/option"
+            android:layout_width="58dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/baseline_dehaze_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="60dp"
+        >
+
+        <ImageButton
+            android:id="@+id/child"
+            android:layout_width="316dp"
+            android:layout_height="206dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/child2"
+            android:contentDescription="Child mode"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+            android:id="@+id/childmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHILDMODE"
+            android:background="@drawable/shapeb"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="50dp"
+            android:padding="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+
+        <ImageButton
+            android:id="@+id/adult"
+            android:layout_width="316dp"
+            android:layout_height="206dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/adult2"
+            android:contentDescription="Adult mode" />
+
+        <TextView
+            android:id="@+id/adultmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADULTMODE"
+            android:background="@drawable/shapeb"
+            android:textColor="@color/black"
+            android:padding="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="100dp"
+            android:textStyle="bold"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
